@@ -61,5 +61,5 @@ Contributions are welcome! If you'd like to contribute to the project, follow th
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the [MIT License](https://github.com/smolvamp/iwd-manager#)
 
