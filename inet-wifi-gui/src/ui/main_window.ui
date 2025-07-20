@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>100</x>
+    <y>100</y>
+    <width>600</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>i-net WiFi Manager</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>Wi-Fi Networks</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QListWidget" name="networkList"/>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="ssidLayout">
+      <item>
+       <widget class="QLineEdit" name="ssidInput">
+        <property name="placeholderText">
+         <string>SSID (select or enter)</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="passwordInput">
+        <property name="placeholderText">
+         <string>Password</string>
+        </property>
+        <property name="echoMode">
+         <enum>QLineEdit.Password</enum>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="showPasswordButton">
+        <property name="text">
+         <string>Show</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="buttonLayout">
+      <item>
+       <widget class="QPushButton" name="refreshButton">
+        <property name="text">
+         <string>Refresh</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="connectButton">
+        <property name="text">
+         <string>Connect</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="disconnectButton">
+        <property name="text">
+         <string>Disconnect</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <statusbar name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
