@@ -1,4 +1,4 @@
-# i-net WiFi GUI
+# I-net WiFi GUI
 
 This project is a graphical user interface (GUI) for managing and interacting with Wi-Fi networks on Linux, built using Python and Qt Designer. The application serves as a front-end for the i-net WiFi Daemon, allowing users to control Wi-Fi functionalities seamlessly.
 
@@ -13,8 +13,8 @@ This project is a graphical user interface (GUI) for managing and interacting wi
 
 1. Clone the repository:
    ```
-   git clone <repository-url>
-   cd inet-wifi-gui
+   git clone https://github.com/discombobulated-otter/iwd-manager
+   cd iwd-manager/inet-wifi-gui
    ```
 
 2. Install the required dependencies:
